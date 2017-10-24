@@ -227,6 +227,8 @@ If you need to run or write a sample that depends on the backend server, you can
     # install the google.goland.org/appengine package
     $ go get google.golang.org/appengine
     # explicitly set the GOROOT and APPENGINE_DEV_APPSERVER env vars
+    # find your own GOROOT for google-cloud-sdk, it could be like
+    # /usr/lib/google-cloud-sdk/platform/google_appengine/goroot-1.8
     $ export GOROOT=$HOME/local/google-cloud-sdk/platform/google_appengine/goroot 
     $ export APPENGINE_DEV_APPSERVER=$(which dev_appserver.py) 
     ```
